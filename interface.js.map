@@ -1,0 +1,1 @@
+{"version":3,"file":"interface.js","sourceRoot":"","sources":["src/interface.ts"],"names":[],"mappings":"","sourcesContent":["export interface TodoItemI {\n  id: string;\n  done: boolean;\n  name: string;\n}\n\nexport interface TodosI {\n  [key: string]: TodoItemI;\n}"]}
